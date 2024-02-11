@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 1rem;
+}
+
+#title {
+  margin: 1em auto;
+  text-align: center;
+}
+
+#description {
+  margin: 1em auto;
+  text-align: center;
+  font-style: italic;
+}
+
+#survey-form {
+  background-color: rgba(18, 39, 24, 0.8);
+  border-radius: 0.25rem;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+label {
+  display: block;
+  align-items: center;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  display: block;
+  font-size: 1.125rem;
+  width: 100%;
+  padding: 0.75rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  font-size: 1.25rem;
+  padding: 0.75rem 0.75rem;
+  background-color: #277c47;
+  color: #f5f6f7;
+  border-color: white;
+  min-width: 300px;
+}
